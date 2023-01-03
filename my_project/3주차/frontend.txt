@@ -1,0 +1,33 @@
+초기 자바스크립트 : 버튼 눌렀을 때 dom 조작, 이벤트 발생 시 alert
+현재는 복잡한 기능
+
+브라우저의 동작 원리 
+- 통신 : 서버 <-> 브라우저 
+- 렌더링 : dom 객체를 화면에 그리는 것, dom은 트리구조로 이루어짐
+- 스크립트 실행 
+
+
+1) 
+변수를 선언하기 위한 예약어 : var, let
+let a = 1;
+var a = 1;
+var보단 let 사용 권장 why? 호이스팅
+변수는 메모리 상 주소 & 주소에 해당하는 값 
+
+상수는 변하지 않는 수 
+const a = 1;
+
+2)
+8가지 자료형
+number,string,boolean,object,array
+function,undefined,null
+
+문자열 내에 다른 변수 넣을 수 있음 
+let str = '-${var}-'
+
+3)
+메모리 
+garbage collector : mark and sweep algorithm 
+heap, call stack 
+
+
